@@ -1,10 +1,9 @@
 require 'spec_helper'
 
-
-
-
 describe Scrappable::Page do
+
   let(:html) { "the html page" }
+
   let(:example_class) do
     Class.new do
       include Scrappable::Page
